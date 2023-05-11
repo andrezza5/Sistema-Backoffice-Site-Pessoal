@@ -1,0 +1,26 @@
+body {
+    height: 100px;
+    padding-top: 9rem; /* ou ajuste conforme necessário */
+}
+
+.header {    
+    
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    aling-items: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff; 
+
+}
+
+.logo {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
