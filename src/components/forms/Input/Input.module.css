@@ -1,9 +1,8 @@
 .formGroup {
     display: flex;
     flex-direction: column;
-    boder: none;
-    margin-bottom: 20px;
-    widht: 100%;
+    border: none;
+    margin-bottom: 20px;    
     padding: 10px;   
     width: 80%;
     
