@@ -1,51 +1,12 @@
 {
-  "users": [
-    {
-      "id": 1,
-      "email": "teste@email.com",
-      "password": "teste@123"
-    }
-  ],
-  "informacoes": [
-    {
-      "foto": "https://github.com/andrezza5.png",
-      "nome": "Andrezza Marcilio",
-      "cargo": "Administradora",
-      "resumo": "Em transição de carreira.",
-      "id": 1
-    },
-    {
-      "foto": "https://github.com/andrezza5.png",
-      "nome": "Andrezza",
-      "cargo": "Administradora",
-      "resumo": ".",
-      "id": 2
-    }
-  ],
-  "experiencias": [
-    {
-      "titulo": "Administradora",
-      "descricao": "Administrativo/Financeiro. ",
-      "tipo": "profissional",
-      "anoInicio": "2004",
-      "anoFim": 2012,
-      "id": 2
-    },
-    {
-      "titulo": "Desenvolvedora de sofware ",
-      "descricao": "Cursando no Comeia Academy.",
-      "tipo": "academico",
-      "anoInicio": 2023,
-      "anoFim": "2023",
-      "id": 3
-    }
-  ],
-  "portfolio": [
-    {
-      "link": "https://andrezza5.github.io/landingpage/",
-      "image": "data:image/png;base64,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",
-      "title": "Portfólio 1",
-      "id": 4
-    }
-  ]
-}
+    "users": [
+      {
+        "id": 1,
+        "email": "teste@email.com",
+        "password": "teste@123"
+      }
+    ],
+    "informacoes": [],
+    "experiencias": [],
+    "portfolio": []
+  }

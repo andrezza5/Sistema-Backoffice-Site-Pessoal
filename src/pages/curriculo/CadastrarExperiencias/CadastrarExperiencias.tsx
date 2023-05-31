@@ -49,8 +49,8 @@ const CadastrarExperiencias: React.FC = () => {
       navigate("/curriculo/experiencia/Lista");
       alert("Formulário enviado com sucesso");
     } catch (error) {
-      console.error("Erro ao enviar o formulário:", error);
-      alert("Ocorreu um erro ao enviar o formulário. Tente novamente,");
+      console.log(error);
+      alert("Ocorreu um erro ao enviar o formulário");
     }
   };
 
