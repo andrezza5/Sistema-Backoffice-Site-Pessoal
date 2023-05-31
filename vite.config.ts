@@ -1,4 +1,4 @@
-import react  from '@vitejs/plugin-react-refresh'
+import react  from '@vitejs/plugin-react'
 
 
 const config = {
